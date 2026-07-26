@@ -1,0 +1,53 @@
+#1. Apple Found
+# fruits = ("Apple", "Mango", "Banana", "Orange", "Grapes")
+# if "Apple" in fruits:
+#     print("Apple Found")
+# else:
+#     print("Apple Not Found")
+
+#2. Pass or Fail
+# marks = (50, 60, 70, 80, 90)
+# if marks[0] >= 40:
+#     print("Pass")
+# else:
+#     print("Fail")
+
+#3. Add 100
+# numbers = (10, 20, 30, 40, 50)
+# numbers = list(numbers)
+# numbers.append(100)
+# print(numbers)
+
+#4. Replace Java with SQL
+# x = ("Python", "Java", "C++")
+# x = list(x)
+# x[1] = "SQL"
+# print(x)
+
+#5. Join two tuples
+# a = (1, 2, 3)
+# b = (4, 5, 6)
+# print(a + b)
+
+#6. Same or Different
+# names = ("navee", "adarsh", "vinu")
+# if names[0] == names[-1]:
+#     print("Same")
+# else:
+#     print("Different")
+
+#7. Last element of second tuple
+# x = ((10, 20, 30), (40, 50, 60))
+# print(x[1][-1])
+
+#8. Get last item
+# x = (10, 40, 50)
+# print(x[-1])
+
+#9. Find position
+# x = (10, 20, 30)
+# print(x.index(20))
+
+#10. Tuple into a List
+# x = (20,30,40)
+# print(list(x))
