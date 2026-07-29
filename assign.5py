@@ -1,0 +1,173 @@
+#1. Print numbers from 50 to 1 in reverse order
+# for i in range(50, 0, -1):
+#     print(i)
+
+#2. Print all even numbers from 1 to 100
+# for i in range(1, 101):
+#     if i % 2 == 0:
+#         print(i)
+
+#3. Print all odd numbers from 1 to 100
+# for i in range(1, 101):
+#     if i % 2 != 0:
+#         print(i)
+
+#4. Print numbers between 1 and 100 divisible by 7
+# for i in range(1, 101):
+#     if i % 7 == 0:
+#         print(i)
+
+#6. Sum of first N natural numbers
+# n = int(input("Enter N: "))
+# sum = 0
+# for i in range(1, n + 1):
+#     sum = sum + i
+# print(sum)
+
+#7. Product of first N natural numbers
+# n = int(input("Enter N: "))
+# product = 1
+# for i in range(1, n + 1):
+#     product = product * i
+# print(product)
+
+#8. Count numbers from 1 to 100 divisible by 3
+# count = 0
+# for i in range(1, 101):
+#     if i % 3 == 0:
+#         count = count + 1
+# print(count)
+
+#9. Sum of all even numbers from 1 to 100
+# sum = 0
+# for i in range(1, 101):
+#     if i % 2 == 0:
+#         sum = sum + i
+# print(sum)
+
+#10. Count uppercase and lowercase letters
+# a = input("Enter a string: ")
+# upper = 0
+# lower = 0
+# for i in a:
+#     if i.isupper():
+#         upper = upper + 1
+#     elif i.islower():
+#         lower = lower + 1
+# print("Uppercase:", upper)
+# print("Lowercase:", lower)
+
+#11.Print characters that appear more than once
+# a = input("Enter a string: ")
+# for i in a:
+#     if a.count(i) > 1:
+#         print(i)
+
+#12.Find second largest without sort() or max()
+# a = [10, 20, 5, 30, 15]
+# largest = a[0]
+# second = a[0]
+# for i in a:
+#     if i > largest:
+#         second = largest
+#         largest = i
+#     elif i > second and i != largest:
+#         second = i
+# print("Second largest:", second)
+
+#13. Remove duplicate values without set()
+# a = [1, 2, 3, 2, 4, 1, 5]
+# b = []
+# for i in a:
+#     if i not in b:
+#         b.append(i)
+# print(b)
+
+#14. Count tuple numbers divisible by both 3 and 5
+# a = (10, 15, 20, 30, 45, 50)
+# count = 0
+# for i in a:
+#     if i % 3 == 0 and i % 5 == 0:
+#         count = count + 1
+# print(count)
+
+#15. Student with highest mark
+# students = {
+#     "navee": 80,
+#     "adarsh": 90,
+#     "vinayak": 75
+# }
+# highest = 0
+# name = ""
+# for i in students:
+#     if students[i] > highest:
+#         highest = students[i]
+#         name = i
+# print(name)
+
+#16. Increase salary by 10% if less than 50000
+# employees = {
+#     "rahul": 40000,
+#     "midhun": 60000,
+#     "anandhu": 45000
+# }
+# for i in employees:
+#     if employees[i] < 50000:
+#         employees[i] = employees[i] * 1.10
+# print(employees)
+
+#17. Elements in first set but not second set
+# a = {1, 2, 3, 4, 5}
+# b = {4, 5, 6, 7}
+# print(a - b)
+
+#18. Perfect squares from 1 to 20
+# a = set(range(1, 21))
+# for i in a:
+#     if int(i ** 0.5) ** 2 == i:
+#         print(i)
+
+#19. Separate even and odd numbers
+# a = [1, 2, 3, 4, 5, 6, 7, 8]
+# even = []
+# odd = []
+# for i in a:
+#     if i % 2 == 0:
+#         even.append(i)
+#     else:
+#         odd.append(i)
+# print("Even:", even)
+# print("Odd:", odd)
+
+#20. Word with highest frequency
+# words = {
+#     "apple": 3,
+#     "banana": 5,
+#     "orange": 2
+# }
+# highest = 0
+# word = ""
+# for i in words:
+#     if words[i] > highest:
+#         highest = words[i]
+#         word = i
+# print(word)
+
+#21. Compare two tuples
+# a = (10, 20, 30, 40)
+# b = (15, 15, 35, 30)
+# for i in range(len(a)):
+#     if a[i] > b[i]:
+#         print("Tuple 1 is larger")
+#     elif b[i] > a[i]:
+#         print("Tuple 2 is larger")
+#     else:
+#         print("Both are equal")
+
+#22. Sum numbers divisible by 2 but not by 4
+# a = [2, 4, 6, 8, 10, 12, 14, 16]
+# sum = 0
+# for i in a:
+#     if i % 2 == 0 and i % 4 != 0:
+#         sum = sum + i
+# print(sum)
